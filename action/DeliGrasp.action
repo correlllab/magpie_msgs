@@ -1,0 +1,12 @@
+# Execute DeliGrasp with force control parameters
+magpie_msgs/DeliGraspParams params
+---
+bool success
+string message
+float64 final_aperture
+float64 final_force
+float64[] force_log  # Force readings during grasp
+---
+float64 current_aperture
+float64 current_force
+string phase  # "approach", "initial_close", "force_increase", "additional_close", "complete"

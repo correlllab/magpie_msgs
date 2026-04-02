@@ -1,0 +1,6 @@
+# Get current robot pose
+---
+geometry_msgs/Pose current_pose
+float64[6] joint_positions
+bool success
+string message

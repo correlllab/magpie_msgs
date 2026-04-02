@@ -1,0 +1,5 @@
+# Set gripper force/torque limit
+float64 max_force  # Maximum force in Newtons
+---
+bool success
+string message

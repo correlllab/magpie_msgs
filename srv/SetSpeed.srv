@@ -1,0 +1,6 @@
+# Set robot speed and acceleration
+float64 speed  # Speed factor (0.0 - 1.0)
+float64 acceleration  # Acceleration factor (0.0 - 1.0)
+---
+bool success
+string message

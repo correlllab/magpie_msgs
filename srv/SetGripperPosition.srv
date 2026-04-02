@@ -1,0 +1,7 @@
+# Set gripper position
+float64 position  # Position in meters (opening width)
+float64 speed  # Speed factor (0.0 - 1.0)
+---
+bool success
+float64 actual_position
+string message

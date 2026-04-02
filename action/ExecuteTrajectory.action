@@ -1,0 +1,11 @@
+# Execute a trajectory with multiple waypoints
+geometry_msgs/Pose[] waypoints
+float64 speed
+float64 acceleration
+bool use_linear_interpolation  # True for MoveL, False for MoveJ
+---
+bool success
+string message
+---
+int32 current_waypoint
+geometry_msgs/Pose current_pose

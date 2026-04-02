@@ -1,0 +1,7 @@
+# Segment object in image
+sensor_msgs/Image image
+int32[4] bounding_box  # [x1, y1, x2, y2]
+---
+sensor_msgs/Image mask  # Binary mask
+bool success
+string message

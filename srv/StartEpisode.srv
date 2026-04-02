@@ -1,0 +1,8 @@
+# Start a new episode for data recording
+string episode_name
+bool auto_name  # If true, auto-generate name with timestamp
+---
+bool success
+string episode_id
+string episode_path
+string message

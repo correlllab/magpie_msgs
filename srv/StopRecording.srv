@@ -1,0 +1,6 @@
+# Stop recording sensor data
+string session_id  # Recording session to stop
+---
+bool success
+string[] saved_files
+string message

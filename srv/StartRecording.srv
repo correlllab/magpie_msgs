@@ -1,0 +1,9 @@
+# Start recording sensor data
+string[] camera_names  # Cameras to record
+bool record_forces  # Record F/T sensor
+bool record_tactile  # Record tactile data
+string save_directory  # Directory to save recordings
+---
+bool success
+string session_id
+string message

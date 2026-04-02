@@ -1,0 +1,13 @@
+# Execute force-controlled motion
+geometry_msgs/Wrench target_wrench
+geometry_msgs/Pose compliance_frame
+float64[6] selection_vector  # Which axes to control (0=position, 1=force)
+float64 timeout_seconds
+---
+bool success
+string message
+geometry_msgs/Wrench final_wrench
+---
+geometry_msgs/Wrench current_wrench
+geometry_msgs/Pose current_pose
+float64 elapsed_time

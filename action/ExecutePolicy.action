@@ -1,0 +1,16 @@
+# Execute learned policy
+string policy_type  # "dp", "octo", "octo_sm", "octo_ba", etc.
+string checkpoint_path
+int32 horizon  # Receding horizon length (typically 1)
+bool record_episode  # Save episode in LeRobot format
+string episode_name
+int32 max_steps  # Maximum steps to execute (0 = unlimited)
+---
+bool success
+string message
+string episode_path  # If recorded
+int32 steps_executed
+---
+magpie_msgs/Observation current_observation
+magpie_msgs/PolicyAction current_action
+int32 step_number

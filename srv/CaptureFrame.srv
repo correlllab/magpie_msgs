@@ -1,0 +1,10 @@
+# Capture a single frame from camera
+string camera_name  # "wrist" or "workspace"
+bool include_depth  # Include depth image
+bool include_pointcloud  # Include point cloud
+---
+sensor_msgs/Image color_image
+sensor_msgs/Image depth_image
+sensor_msgs/PointCloud2 pointcloud
+bool success
+string message

@@ -1,0 +1,10 @@
+# Detect objects in image using vision models
+sensor_msgs/Image image
+string[] prompts  # Text prompts for detection (e.g., "bottle", "cup")
+float64 confidence_threshold  # Minimum confidence (0.0 - 1.0)
+---
+string[] labels  # Detected object labels
+float64[] confidences  # Detection confidences
+int32[] bounding_boxes  # Flattened array: [x1, y1, x2, y2, x1, y1, x2, y2, ...]
+bool success
+string message

@@ -1,0 +1,8 @@
+# Move robot to joint configuration
+float64[6] joint_positions  # Target joint angles in radians
+float64 speed  # Speed factor (0.0 - 1.0)
+float64 acceleration  # Acceleration factor (0.0 - 1.0)
+bool async_mode  # If true, return immediately without waiting for completion
+---
+bool success
+string message
